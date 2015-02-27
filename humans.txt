@@ -1,0 +1,16 @@
+/* TEAM */
+  Developer: Amy Ton
+  Site: amyton.me
+  Twitter: @heyamyton
+  Github: amyton
+
+/* SITE */
+  Standards: HTML5, MD, SCSS/CSS3, JS
+  Components: Zurb Foundation, Jekyll, jQuery, Modernizr, bower, grunt
+  IDE: Sublime Text
+
+/* THANKS */
+  Developer: Daigo Fujiwara
+  Site: daigo.org
+  Twitter: @daigofuji
+  Github: daigofuji
