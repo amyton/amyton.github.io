@@ -13,6 +13,6 @@ keywords: github pages, Jekyll, foundation 5
 		
 		<h3>Hang tight.</h3>
     <p>Something's coming.</p>
-    <p>In the meantime, say hi <a href="twitter.com/heyamyton">@heyamyton</a></p>
+    <p>In the meantime, say hi <a href="http://twitter.com/heyamyton">@heyamyton</a></p>
 	</div>
 </div>
