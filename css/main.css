@@ -1,0 +1,131 @@
+.hero {
+  background: url('../img/hero.jpg') no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.hero:before {
+  background-color: black;
+  opacity: 0.7;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  color: white;
+  font-family: 'Bentham', serif;
+}
+
+h3.logo {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  border: 1px solid white;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  width: 230px;
+  text-transform: uppercase;
+}
+
+h2.tagline {
+  font-size: 52px;
+
+}
+
+h4.sub-tagline {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+}
+
+main {
+  margin: 50px 0;
+}
+
+article {
+  width: 60%;
+  margin: 0 auto;
+}
+
+article h1 {
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: #444444;
+  text-transform: uppercase;
+}
+
+article header {
+  text-align: center;
+}
+
+article p {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  color: #6f6f6f;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+article p a {
+  color: #e3514e;
+  text-decoration: none;
+}
+
+article p a:hover {
+  text-decoration: underline;
+}
+
+.share ul {
+  border: 1px solid #444;
+  display: table;
+  width: 100%;
+}
+
+.share ul li {
+  display: inline-block;
+  border-right: 1px solid #444;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  text-transform: uppercase;
+  width: 25%;
+  margin: 0;
+}
+
+.share ul li:first-child,
+.share li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  color: #6f6f6f;
+}
+
+.share li a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+}
+
+
+.share li a:hover {
+  background: #e3514e;
+  color: white;
+}
+
+.share ul li:last-child {
+  border-right: none;
+}
+
+footer {
+  background: #555;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  font-family: 'PT Serif', serif;
+}
+
+footer p span {
+  margin: 0 10px;
+}
