@@ -7,12 +7,15 @@ keywords: github pages, Jekyll, foundation 5
 
 <h1 class="mvl"></h1>
 
-
 <div class="row">
 	<div class="medium-9 large-7 small-centered column">
-		
-		<h3>Hang tight.</h3>
-    <p>Something's coming.</p>
-    <p>In the meantime, say hi <a href="http://twitter.com/heyamyton">@heyamyton</a></p>
+		<ul class="small-block-grid-2 medium-block-grid-3 stalk-me">
+      <li><a href="http://twitter.com/heyamyton" class="twitter"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://github.com/amyton" class="github"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://plus.google.com/109585160527808684280" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+      <li><a href="http://instagram.com/heyamyton" class="instagram"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="http://linkedin.com/in/amyton" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="http://facebook.com/amerbearz" class="facebook"><i class="fa fa-facebook"></i></a></li>
+    </ul>
 	</div>
 </div>
