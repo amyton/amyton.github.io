@@ -1,12 +1,9 @@
 name : Amy Ton
-brand : Amy Ton | Blog + Portfolio
-description : Description in config
+description : Amy Ton | Blog + Portfolio
 keyword :
 url : http://amyton.me
 email : amyhton@gmail.com
 twitter : heyamyton
 github : amyton
-author : Amy Ton
 analytics :
-year : 2015
 markdown : kramdown
