@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Welcome!
-description: This is my site. Welcome.
+title: Amy Ton
+description: Amy Ton | Portfolio + Blog
 keywords: github pages, Jekyll, foundation 5
 ---
 
@@ -18,4 +18,11 @@ keywords: github pages, Jekyll, foundation 5
       <li><a href="http://facebook.com/amerbearz" class="facebook"><i class="fa fa-facebook"></i></a></li>
     </ul>
 	</div>
+</div>
+
+<a href="/blog">Blog</a>
+<a href="/about">About</a>
+
+<div class="panel">
+  <p>hello man this is amy!</p>
 </div>
