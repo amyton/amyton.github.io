@@ -3,15 +3,17 @@
 <![endif]-->
 
 <header id="header" class="row">
+  <div class="small-4 small-centered medium-2 large-1 columns large-uncentered">
+    <h2>
+      <a href="{{ site.url }}" title="{{ site.description }}"class="logo">
+        <img src="{{ site.url }}/img/logo.png" alt="{{ site.name }}">
+      </a>
+    </h2>
+  </div>
 
-    <div class="small-12 columns">
-        <section class="right show-for-medium-up mam">
-            <ul class="inline-list">
-                <!-- {% include nav.html %} -->
-            </ul>
-        </section>
-
-        <!-- <h1><a href="{{ site.url }}">{{ site.brand }}</a></h1> -->
-
-    </div>
+  <div class="small-12 medium-12 large-4 columns">
+      <nav id="nav">
+        {% include nav.html %}
+      </nav>
+  </div>
 </header>

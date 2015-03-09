@@ -1,4 +1,13 @@
-<li><a href="{{ site.url }}">Home</a></li>
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Linke 2</a></li>
-<li><a href="#">Linke 3</a></li>
+ <ul class="nav inline-list">
+<!--     {% for page in site.pages %}
+      {% if page.title %}
+        <li>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %} -->
+  <li><a href="/portfolio">Work</a></li>
+  <li><a href="/blog">Blog</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
