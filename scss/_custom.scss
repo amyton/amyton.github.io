@@ -1,41 +1,134 @@
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 200;
-	@media #{$medium-up} {
-	}
-	@media #{$large-up} {
-	}
+body {
+  min-width: 320px;
 }
 
-.stalk-me {
+h1.page-title {
+  padding: rem-calc(15) 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: rem-calc(24);
+  text-transform: uppercase;
+  color: $navy;
+  font-weight: 300;
+  text-align: center;
+}
 
-  a {
-    font-size: 4em;
-    text-align: center;
-    display: block;
+#header {
+  margin-top: rem-calc(25);
+  margin-bottom: rem-calc(30);
+}
 
-    &.twitter {
-      color: #00aced;
+#projects {
+  margin-top: rem-calc(70);
+}
+
+
+// ==================================
+// Nav
+// ==================================
+
+#nav {
+  height: rem-calc(30);
+}
+
+.nav {
+  margin-bottom: 0;
+
+  li {
+
+    * {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 300;
+      @include single-transition;
     }
 
-    &.github {
-      color: #171515;
-    }
-
-    &.google-plus {
-      color: #dd4b39;
-    }
-
-    &.instagram {
-      color: #517fa4;
-    }
-
-    &.linkedin {
-      color: #007bb6;
-    }
-
-    &.facebook {
-      color: #3b5998;
+    a:hover {
+      border-bottom: 2px solid;
+      padding-bottom: rem-calc(5);
     }
   }
 }
 
+// ==================================
+// Blog Layout
+// ==================================
+
+.post-list {
+
+  li {
+    margin: rem-calc(50 0);
+  }
+
+  .post-date {
+    color: $navy;
+    font-weight: 300;
+  }
+
+  .post-title {
+    margin: rem-calc(5 0 10);
+  }
+
+  .post-link {
+    @include single-transition;
+
+    &:hover {
+      color: $coral;
+    }
+  }
+
+  .excerpt {
+    font-size: rem-calc(20);
+    line-height: 1.8
+  }
+}
+
+.rss-subscribe {
+  font-size: rem-calc(12);
+
+  a {
+    color: $coral;
+  }
+}
+
+// ==================================
+// Post Layout
+// ==================================
+
+.post {
+
+  &.row {
+    margin-top: rem-calc(50);
+    margin-bottom: rem-calc(100);
+  }
+
+  .post-meta {
+    text-align: center;
+    margin-bottom: 0;
+    color: $coral;
+  }
+
+  .post-title {
+    color: $purple;
+    border-bottom: 2px solid;
+    text-align: center;
+    padding-bottom: rem-calc(5);
+    margin-bottom: 3rem;
+  }
+}
+
+
+// ==================================
+// Footer
+// ==================================
+
+.site-footer {
+
+  p {
+    font-size: rem-calc(12);
+
+    span {
+      color: $coral;
+    }
+  }
+}
