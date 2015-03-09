@@ -4,24 +4,22 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class=" row blog">
+<h1 class="page-title">{{ page.title }}</h1>
 
-<div class="large-6 columns large-centered">
-  <h1 class="page-heading">Posts</h1>
-  
-  <ul class="post-list panel">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-  
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %} 
-  </ul>
-  
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
+<div class="small-12 medium-11 medium-centered large-9 columns large-centered">
 
+    <ul class="post-list no-bullet">
+        {% for post in site.posts %}
+        <li>
+            <div class="post-meta">
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+            </div>
+
+            <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </li>
+        {% endfor %} 
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
