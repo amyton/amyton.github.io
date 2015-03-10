@@ -10,6 +10,6 @@ This was was my FIRST time learning and using the pen tool in Illustrator and it
 Week One's exercises were to create super hero icons and and a selfie. Here's mine: 
 
 <ul class="small-block-grid-1 medium-block-grid-2 no-bullet">
-  <li><img src="{{ site.url }}/self-portrait.jpg" alt="selfie illustration"/></li>
-  <li><img src="{{ site.url }}/batman.jpg" alt="batman logo"/></li>
+  <li><img src="{{ site.url }}/img/self-portrait.jpg" alt="selfie illustration"/></li>
+  <li><img src="{{ site.url }}/img/batman.jpg" alt="batman logo"/></li>
 </ul>
