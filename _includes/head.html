@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ page.title }} - {{ site.name }}</title>
+    <title>{{ site.name }} | {{ page.title }}</title>
 
     <meta name="description" content="{{ page.title }} - {{ site.name }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,7 +14,7 @@
     <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-     <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
