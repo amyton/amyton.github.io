@@ -28,13 +28,24 @@ section[role="main"] {
 // ==================================
 
 #nav {
-  height: rem-calc(30);
+  margin-top: rem-calc(15);
+
 }
 
 .nav {
-  margin-bottom: 0;
+  margin: 0 auto;
+  display: table;
+
+  @media #{$large-up} {
+    float: right;
+    margin-right: 15px;
+  }
 
   li {
+
+    &:first-child {
+      margin-left: 0;
+    }
 
     * {
       text-transform: uppercase;
