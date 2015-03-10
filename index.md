@@ -5,23 +5,17 @@ description: Blog and projects showcase from DESIGNATION
 keywords:
 ---
 
-<header>
-  <h2 class="page-title">Work</h2>
-</header>
-
-<section role="main">
-  <ul class="small-block-grid-1 medium-block-grid-3">
-    <li>
-      <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
-    </li>
-    <li>
-      <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
-    </li>
-    <li>
-      <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
-    </li>
-     <li>
-      <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
-    </li>
-  </ul>
+<section class="small-12 medium-11 medium-centered large-9 columns large-centered">
+    <ul class="post-list no-bullet">
+        {% for post in site.posts %}
+        <li>
+            <div class="post-meta">
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+            </div>
+            <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="excerpt">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </li>
+        {% endfor %} 
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </section>
