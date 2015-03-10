@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Amy Ton
-description: Amy Ton | Blog & Portfolio Website
+title: Blog & Portfolio Website
+description: Blog and projects showcase from DESIGNATION
 keywords:
 ---
 
-<h2 class="page-title">{{ page.description }}</h2>
+<header>
+  <h2 class="page-title">Work</h2>
+</header>
 
-<div id="projects">
+<section role="main">
   <ul class="small-block-grid-1 medium-block-grid-3">
     <li>
       <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
@@ -22,4 +24,4 @@ keywords:
       <a href="#"><img src="http://placehold.it/640x350&text=[img]" alt=""></a>
     </li>
   </ul>
-</div>
+</section>
