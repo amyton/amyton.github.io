@@ -6,7 +6,7 @@ keywords:
 ---
 
 <section class="small-12 medium-11 medium-centered large-9 columns large-centered">
-    <ul class="post-list no-bullet">
+<!--     <ul class="post-list no-bullet">
         {% for post in site.posts %}
         <li>
             <div class="post-meta">
@@ -17,5 +17,7 @@ keywords:
         </li>
         {% endfor %} 
     </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+    <h2>brb.</h2>
+    <p>In the meantime, say hello on <a href="http://twitter.com/heyamyton">Twitter</a>!</p>
 </section>
