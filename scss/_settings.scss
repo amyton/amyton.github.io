@@ -87,8 +87,8 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: "museo-sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: "museo-slab", Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-sans-serif: "europa", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: "calluna", Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
@@ -113,7 +113,7 @@ $charcoal    : #555555;
 // $tuatara     : #444444;
 // $oil         : #333333;
 // $jet         : #222222;
-// $black       : #000000;
+$black       : #262626;
 
 $turquoise: #20D8CE;
 $coral: #F48076; // #F76666 (darker)
@@ -121,22 +121,23 @@ $magenta: #BC527B;
 $purple: #541667; //#7C199B (lighter)
 $chartreuse: #cc0;
 $navy: #415281;
+$gold: #CDBC88;
 
 
 
 // We use these as default colors throughout
-$primary-color: $turquoise;
-$secondary-color: $charcoal;
-$alert-color: $coral;
+$primary-color: $gold;
+$secondary-color: $black;
+// $alert-color: $coral;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
 // We use these to control various global styles
 // $body-bg: $white;
-$body-font-color: $charcoal;
+$body-font-color: $black;
 $body-font-family: $font-family-sans-serif;
-$body-font-weight: 100;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -268,7 +269,7 @@ $paragraph-line-height: 1.8;
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 // $anchor-font-color: $primary-color;
-$anchor-font-color: $turquoise;
+$anchor-font-color: $gold;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
