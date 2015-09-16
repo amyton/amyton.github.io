@@ -19,5 +19,5 @@ keywords:
     </ul>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
     <h2>brb.</h2>
-    <p>In the meantime, say hello on <a href="http://twitter.com/heyamyton">Twitter</a>!</p>
+    <!-- <p>In the meantime, say hello on <a href="http://twitter.com/heyamyton">Twitter</a>!</p> -->
 </section>
